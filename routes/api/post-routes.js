@@ -5,6 +5,8 @@ const { Post, User } = require('../../models');
 router.get('/', (req, res) => {
     Post.findAll({
       attributes: ['id', 'post_url', 'title', 'created_at'],
+      // show the latest news first
+      order: [['created_at', 'DESC']], 
       include: [
         {
           model: User,
@@ -107,5 +109,7 @@ router.delete('/:id', (req, res) => {
       res.status(500).json(err);
     });
 });
+
+
 
 module.exports = router;
