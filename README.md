@@ -22,20 +22,20 @@ This project build the back end of the website.
 
 ## End points
 
-Users
+Users  
 https://shrouded-springs-72029.herokuapp.com/api/users  
 https://shrouded-springs-72029.herokuapp.com/api/users/:id  
 https://shrouded-springs-72029.herokuapp.com/api/users/login  
 
-Posts
+Posts  
 https://shrouded-springs-72029.herokuapp.com/api/posts  
 https://shrouded-springs-72029.herokuapp.com/api/posts/:id  
 
-Comments
+Comments  
 https://shrouded-springs-72029.herokuapp.com/api/comments  
 https://shrouded-springs-72029.herokuapp.com/api/comments/:id  
 
-Vote
+Vote  
 https://shrouded-springs-72029.herokuapp.com/api/posts/upvote  
 
 
